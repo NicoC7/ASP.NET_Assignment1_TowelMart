@@ -37,3 +37,8 @@ Date: 10/10/2023
 12:53 I finally solved the issue. I just was miss spelling one property and also I had to update the data base.
 
 12:56 I will start to work on the validations..
+
+1:25 I add some more validations aven to display name so it look user friendly as you said.
+
+1:42 I add more towels into my database I think I will try to display the img and start doing the styling.
+

@@ -53,7 +53,7 @@ namespace TowelMart.Models
         Price = 9.99M,
         StockQuantity = 75,
         Material = "Cotton",
-        Brand = "GreenTowels",
+        Brand = "TowelCo",
         ImageUrl = "/images/GreenTowel.jpg"
     },
 
@@ -65,7 +65,7 @@ namespace TowelMart.Models
         Price = 11.99M,
         StockQuantity = 60,
         Material = "Cotton",
-        Brand = "RedTowels",
+        Brand = "LuxTowels",
         ImageUrl = "/images/RedTowel.jpg"
     },
 
@@ -77,8 +77,68 @@ namespace TowelMart.Models
         Price = 14.99M,
         StockQuantity = 40,
         Material = "Microfiber",
-        Brand = "YellowTowels",
+        Brand = "TowelCo",
         ImageUrl = "/images/YellowTowel.jpg"
+    },
+
+    new Towel
+    {
+        Color = "White",
+        ReleaseDate = DateTime.Parse("2023-01-15"),
+        Size = "Small",
+        Price = 12.99M,
+        StockQuantity = 100,
+        Material = "Cotton",
+        Brand = "TowelCo",
+        ImageUrl = "/images/WhiteTowel.jpg"
+    },
+
+    new Towel
+    {
+        Color = "White",
+        ReleaseDate = DateTime.Parse("2023-01-15"),
+        Size = "Medium",
+        Price = 11.99M,
+        StockQuantity = 100,
+        Material = "Microfiber",
+        Brand = "LuxTowels",
+        ImageUrl = "/images/WhiteTowel.jpg"
+    },
+
+    new Towel
+    {
+        Color = "Red",
+        ReleaseDate = DateTime.Parse("2023-01-15"),
+        Size = "Large",
+        Price = 14.99M,
+        StockQuantity = 100,
+        Material = "Microfiber",
+        Brand = "TowelCo",
+        ImageUrl = "/images/WhiteTowel.jpg"
+    },
+
+    new Towel
+    {
+        Color = "Blue",
+        ReleaseDate = DateTime.Parse("2023-01-15"),
+        Size = "Small",
+        Price = 16.99M,
+        StockQuantity = 100,
+        Material = "Cotton",
+        Brand = "LuxTowels",
+        ImageUrl = "/images/WhiteTowel.jpg"
+    },
+
+    new Towel
+    {
+        Color = "Green",
+        ReleaseDate = DateTime.Parse("2023-01-15"),
+        Size = "Medium",
+        Price = 17.99M,
+        StockQuantity = 100,
+        Material = "Microfiber",
+        Brand = "TowelCo",
+        ImageUrl = "/images/WhiteTowel.jpg"
     }
 );
 
