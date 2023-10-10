@@ -19,3 +19,15 @@ Properties: Color, Size, Price, Material, Brand, Image and StockQuantity.
 9:43 I will start creating the new ASP Application...
 
 9:49 I already create the application and commented this line "sslPort": 44392" to run it and it worked.
+
+Date: 10/10/2023
+ 
+10:28 I have been working in the assignment, right now im adding the filter capability but I really need to fix the link to my towelmart page. Im tired of having to manually type type it in the url so for now I havent encountered a major problem. I creted a folder to add the images of my products and I dont know how to add them.
+
+10:50 I have encountered a problem that I couldnt be able to solve. so im trying to add a the search by sizes with the dropdown but I cant solve the issue.
+
+11:20 The Title of my project is my color and the Genre is my size. This properties are for the searching capability. Hopefully I can solve the issue with the dropdown menu for the size propertie.
+
+11:31 The issue still poping out "An unhandled exception occurred while processing the request." So I would add that part later.
+
+11:36 I will change the lab because I cant focus. I couldnt fin a solution to my code so I commented out the new code added so I can see if it at least works.

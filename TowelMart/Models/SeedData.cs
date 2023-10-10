@@ -30,7 +30,7 @@ namespace TowelMart.Models
         StockQuantity = 100,
         Material = "Cotton",
         Brand = "TowelCo",
-        ImageUrl = "/images/white_towel.jpg"
+        ImageUrl = "/images/WhiteTowel.jpg"
     },
 
     new Towel
@@ -42,7 +42,7 @@ namespace TowelMart.Models
         StockQuantity = 50,
         Material = "Microfiber",
         Brand = "LuxTowels",
-        ImageUrl = "/images/blue_towel.jpg"
+        ImageUrl = "/images/BlueTowel.jpg"
     },
 
     new Towel
@@ -54,7 +54,7 @@ namespace TowelMart.Models
         StockQuantity = 75,
         Material = "Cotton",
         Brand = "GreenTowels",
-        ImageUrl = "/images/green_towel.jpg"
+        ImageUrl = "/images/GreenTowel.jpg"
     },
 
     new Towel
@@ -66,7 +66,7 @@ namespace TowelMart.Models
         StockQuantity = 60,
         Material = "Cotton",
         Brand = "RedTowels",
-        ImageUrl = "/images/red_towel.jpg"
+        ImageUrl = "/images/RedTowel.jpg"
     },
 
     new Towel
@@ -78,7 +78,7 @@ namespace TowelMart.Models
         StockQuantity = 40,
         Material = "Microfiber",
         Brand = "YellowTowels",
-        ImageUrl = "/images/yellow_towel.jpg"
+        ImageUrl = "/images/YellowTowel.jpg"
     }
 );
 

@@ -20,10 +20,51 @@ namespace TowelMart.Controllers
         }
 
         // GET: Towels
-        public async Task<IActionResult> Index()
+        /*public async Task<IActionResult> Index(string towelSize, string searchString)
         {
-            return View(await _context.Towel.ToListAsync());
+            // Use LINQ to get list of genres.
+            IQueryable<string> sizeQuery = from t in _context.Towel
+                                           orderby t.Size
+                                           select t.Size;
+
+            var towels = from t in _context.Towel
+                         select t;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                towels = towels.Where(s => s.Color.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(towelSize))
+            {
+                towels = towels.Where(x => x.Size == towelSize);
+            }
+
+            var towelSizeVM = new TowelSizeViewModel
+            {
+                Sizes = new SelectList(await sizeQuery.Distinct().ToListAsync()),
+                Towels = await towels.ToListAsync()
+            };
+
+            return View(towelSizeVM);
+        }*/
+
+
+        
+         //Last Code Working
+          public async Task<IActionResult> Index(string searchString)
+        {
+            var towels = from t in _context.Towel
+                         select t;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                towels = towels.Where(s => s.Color.Contains(searchString));
+            }
+
+            return View(await towels.ToListAsync());
         }
+        
 
         // GET: Towels/Details/5
         public async Task<IActionResult> Details(int? id)
