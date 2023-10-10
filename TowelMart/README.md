@@ -35,3 +35,5 @@ Date: 10/10/2023
 12:34 here we go again...
 
 12:53 I finally solved the issue. I just was miss spelling one property and also I had to update the data base.
+
+12:56 I will start to work on the validations..
