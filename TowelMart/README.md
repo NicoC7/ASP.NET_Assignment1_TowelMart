@@ -31,3 +31,7 @@ Date: 10/10/2023
 11:31 The issue still poping out "An unhandled exception occurred while processing the request." So I would add that part later.
 
 11:36 I will change the lab because I cant focus. I couldnt fin a solution to my code so I commented out the new code added so I can see if it at least works.
+
+12:34 here we go again...
+
+12:53 I finally solved the issue. I just was miss spelling one property and also I had to update the data base.

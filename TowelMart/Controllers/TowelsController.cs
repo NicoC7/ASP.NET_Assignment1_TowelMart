@@ -20,7 +20,7 @@ namespace TowelMart.Controllers
         }
 
         // GET: Towels
-        /*public async Task<IActionResult> Index(string towelSize, string searchString)
+        public async Task<IActionResult> Index(string towelSize, string searchString)
         {
             // Use LINQ to get list of genres.
             IQueryable<string> sizeQuery = from t in _context.Towel
@@ -47,11 +47,12 @@ namespace TowelMart.Controllers
             };
 
             return View(towelSizeVM);
-        }*/
+        }
 
 
         
          //Last Code Working
+         /*
           public async Task<IActionResult> Index(string searchString)
         {
             var towels = from t in _context.Towel
@@ -64,6 +65,7 @@ namespace TowelMart.Controllers
 
             return View(await towels.ToListAsync());
         }
+        */
         
 
         // GET: Towels/Details/5
