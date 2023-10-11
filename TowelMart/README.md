@@ -42,3 +42,6 @@ Date: 10/10/2023
 
 1:42 I add more towels into my database I think I will try to display the img and start doing the styling.
 
+Date: 10/11/2023
+
+17:39 I know that I havent worked in this assignment a lot but I know it will be so good. basically I just re-read the assignment and I forgot to add the additional customer review based on a half-rating scale of 1-5 (poor to excellent).So I will do that right away. whish me luck.
