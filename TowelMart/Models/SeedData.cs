@@ -87,7 +87,7 @@ namespace TowelMart.Models
         ReleaseDate = DateTime.Parse("2023-01-15"),
         Size = "Small",
         Price = 12.99M,
-        StockQuantity = 100,
+        StockQuantity = 90,
         Material = "Cotton",
         Brand = "TowelCo",
         ImageUrl = "/images/WhiteTowel.jpg"
@@ -111,7 +111,7 @@ namespace TowelMart.Models
         ReleaseDate = DateTime.Parse("2023-01-15"),
         Size = "Large",
         Price = 14.99M,
-        StockQuantity = 100,
+        StockQuantity = 35,
         Material = "Microfiber",
         Brand = "TowelCo",
         ImageUrl = "/images/WhiteTowel.jpg"
@@ -123,7 +123,7 @@ namespace TowelMart.Models
         ReleaseDate = DateTime.Parse("2023-01-15"),
         Size = "Small",
         Price = 16.99M,
-        StockQuantity = 100,
+        StockQuantity = 25,
         Material = "Cotton",
         Brand = "LuxTowels",
         ImageUrl = "/images/WhiteTowel.jpg"
@@ -135,7 +135,7 @@ namespace TowelMart.Models
         ReleaseDate = DateTime.Parse("2023-01-15"),
         Size = "Medium",
         Price = 17.99M,
-        StockQuantity = 100,
+        StockQuantity = 10,
         Material = "Microfiber",
         Brand = "TowelCo",
         ImageUrl = "/images/WhiteTowel.jpg"
