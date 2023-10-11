@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TowelMart.Data;
 
 namespace TowelMart.Migrations
 {
     [DbContext(typeof(TowelMartContext))]
-    partial class TowelMartContextModelSnapshot : ModelSnapshot
+    [Migration("20231011215957_CustomerReviewRating")]
+    partial class CustomerReviewRating
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

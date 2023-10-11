@@ -44,5 +44,8 @@ namespace TowelMart.Models
         [Display(Name = "Towel Image")]
         [Url(ErrorMessage = "Invalid URL format.")]
         public string ImageUrl { get; set; }
+
+        [Range(1, 5, ErrorMessage = "The rating must be between 1 and 5.")]
+        public int CustomerReviewRating { get; set; }
     }
 }
