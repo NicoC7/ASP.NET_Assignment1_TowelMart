@@ -47,3 +47,7 @@ Date: 10/11/2023
 17:39 I know that I havent worked in this assignment a lot but I know it will be so good. basically I just re-read the assignment and I forgot to add the additional customer review based on a half-rating scale of 1-5 (poor to excellent).So I will do that right away. whish me luck.
 
 18:13 I added the rating property and I figure out how to style my web site so i will finish it tomorrow by adding style and the about us page.
+
+Date: 10/12/2023
+
+14:31 Yesterday I figure out how to add styling so today i will finish with that and the about us page.
