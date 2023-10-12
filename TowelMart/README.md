@@ -51,3 +51,5 @@ Date: 10/11/2023
 Date: 10/12/2023
 
 14:31 Yesterday I figure out how to add styling so today i will finish with that and the about us page.
+
+15:33 I try to add an image to the welcome page but it cant be loaded. So Ill ask u tomorrow, I dont understand why are you so rude with me :(
