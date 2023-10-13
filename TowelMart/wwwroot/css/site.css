@@ -59,7 +59,6 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
 .footer {
@@ -67,5 +66,27 @@ body {
   bottom: 0;
   width: 100%;
   white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+  line-height: 60px;
 }
+
+body {
+    background-color: black;
+    color: #00ffcc;
+}
+
+.navbar-bran {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: #00ffcc; 
+}
+
+a.navbar-bran, ul li.nav-ite {
+    text-decoration: none; 
+    color: #0366d6;
+}
+
+    a.navbar-bran:hover, ul li.nav-ite {
+        color: #ff00ff;
+    }
+
