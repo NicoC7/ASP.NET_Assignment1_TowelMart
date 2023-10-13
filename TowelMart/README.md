@@ -63,3 +63,5 @@ Date: 10/13/2023
 8:11 Such a bad time to work on this project, Im basically done. I'll try to figure out how to display images and diplay it with azure to get that bonus mark.
 
 9:15 I couldnt find a way to display images. It is a very hard process and gives a lot of errors. I will comment the code so it dont display the image url.
+
+9:30 everything is working so Ill uncomment the "sslPort" line so u can easily run it.
